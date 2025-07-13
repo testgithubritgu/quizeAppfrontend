@@ -1,0 +1,32 @@
+[
+
+    {
+        "question":"Who developed Python Programming Language?",
+        "answers":[
+            {"option1":"Wick van Rossum","correct":false},
+            {"option1":"Rasmus Lerdorf","correct":false},
+            {"option1":"Guido van Rossum","correct":true},
+            {"option1":"Niene Stom","correct":false}
+        ]
+    },
+    {
+        "question":"Which type of Programming does Python support?",
+        "answers":[
+            {"option1":"object-oriented programming","correct":false},
+            {"option1":"structured programming","correct":false},
+            {"option1":"functional programming","correct":false},
+            {"option1":"all of the mentioned","correct":true,"Explanation": "Python language is designed by a Dutch programmer Guido van Rossum in the Netherlands."}
+        ]
+    },
+    {
+        "question":"Is Python case sensitive when dealing with identifiers?",
+        "answers":[
+            {"option1":"no","correct":false},
+            {"option1":"yes","correct":true,"Explanation": "Case is always significant while dealing with identifiers in python."},
+            {"option1":"machine dependent","correct":false},
+            {"option1":"none of the mentioned","correct":false}
+        ]
+    }
+
+
+]
