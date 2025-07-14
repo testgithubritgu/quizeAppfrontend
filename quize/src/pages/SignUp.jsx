@@ -7,19 +7,19 @@ export default function SignUp() {
   const [isuserexist,setisuserxist] = useState(false)
   const ondatachange = (e) => {
     const val = e.target.value
-    console.log(val)
+ 
     setuserdata(pre => ({...pre, [e.target.name]: val }))
     setisuserxist(false)
   }
 
   const onformsubmite = async (e) => {
     const { name, email, password } = userdata
-    console.log(userdata)
+   
     e.preventDefault()
     try {
     
-    const {data} = await axios.post("http://localhost:5000/signup",{name,email,password})
-    console.log(data)
+    const {data} = await axios.post("https://backenddeployquize.onrender.com/signup",{name,email,password})
+  
     setisuserxist(false)
     localStorage.setItem("token",data.token)
     localStorage.setItem("user",JSON.stringify(data.user))

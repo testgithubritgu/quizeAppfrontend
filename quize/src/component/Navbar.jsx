@@ -42,7 +42,7 @@ const Navbar = () => {
                         quize
                     </h1>
                 </div>
-               { showpath && <button onClick={()=>navigator("/")} className='p-2 border bg-gradient-to-bl from-slate-300 to-slate-500 rounded-lg px-3 text-[20px] cursor-pointer '>Go To Home</button>}
+               { showpath && <button onClick={()=>navigator("/")} className='p-2 border  bg-gradient-to-bl from-slate-300 to-slate-500 rounded-lg px-3 text-[20px] cursor-pointer '>Go To Home</button>}
                 <div className='login mr-[50px] space-x-4 w-fit'>
                    {!isLogin? (<><button onClick={()=>login()}  className='p-2 border rounded-lg px-3 text-[20px] cursor-pointer '>Login</button>
                     <button onClick={()=>signup()} className='p-2 border rounded-lg px-3 text-[20px] cursor-pointer '>Register</button></>):(<> <button onClick={()=>logout()} className='p-2 border rounded-lg px-3 text-[20px] cursor-pointer '>Logout</button></>)}

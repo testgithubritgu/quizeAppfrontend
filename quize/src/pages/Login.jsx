@@ -20,7 +20,7 @@ export default function Login() {
     e.preventDefault()
     try {
 
-      const { data } = await axios.post("http://localhost:5000/login", { email, password })
+      const { data } = await axios.post("https://backenddeployquize.onrender.com/login", { email, password })
       localStorage.setItem("token", data.token)
       localStorage.setItem("user", JSON.stringify(data.user))
       navigator("/athunticationComplet")

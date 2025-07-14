@@ -20,6 +20,7 @@ export default function Quiz() {
   const [quizeName, setquizeName] = useState(math)
   const [showletsstart, setshowletsstart] = useState('')
   const [checkbox, setcheckbox] = useState(0)
+  const [selectedIndex,setSelectedIndex] = useState(null)
   const names = [
     { name: "math" },
     { name: "genral" },
@@ -42,12 +43,14 @@ export default function Quiz() {
     setplaygame(true)
   }
 
-  const optionButtonOnclick = (i) => {
+  const optionButtonOnclick = (e,i) => {
     // e.target.classList.add("cursor-not-allowed")
+    setSelectedIndex(i)
     if (quizeName[idx].answer[i].correct) {
       toast.success("correct answer")
       setscore(score + 1)
     } else {
+     
       toast.warn("wrong answer")
     }
     setchecked(true)
@@ -134,7 +137,7 @@ export default function Quiz() {
                     {quizeName[idx].answer.map((e, i) => {
                       return (
                         <>
-                          <button onClick={() => optionButtonOnclick(i)} disabled={checked} className={`py-4 px-6 m-5 text-[15px] cursor-pointer font-serif rounded-2xl ${checked ? "cursor-not-allowed" : ""} ${(checked && quizeName[idx].answer[i].correct) ? "bg-green-500" : "bg-white"} `}>{e.opt}</button>
+                          <button onClick={(r) => !checked && optionButtonOnclick(r,i)} disabled={checked} className={`py-4  px-6 m-5 text-[15px]  font-serif rounded-2xl ${!checked ? "cursor-pointer" : "cursor-not-allowed"} ${(checked && quizeName[idx].answer[i].correct) ? "bg-green-500" : checked && (i===selectedIndex)&& !quizeName[idx].answer[i].correct?"bg-red-700":"bg-white"}  `}>{e.opt}</button>
                         </>
                       )
                     })}
