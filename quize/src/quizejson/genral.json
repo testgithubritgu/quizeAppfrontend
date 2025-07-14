@@ -1,0 +1,77 @@
+[
+    
+        {"question":"दीर्घ मुदतीच्या कर्जावर RBI किती व्याजदर आकारते?",
+        "answer":[
+            {"opt":"बायबॅक दर","correct":false,"explanation":""},
+            {"opt":"बँक दर","correct":true,"explanation":""},
+            {"opt":"पुनरावृत्ती दर","correct":false,"explanation":""},
+            {"opt":"यापैकी काहीही नाही","correct":false,"explanation":""}
+        ]},
+        {"question":"महाराष्ट्राच्या विधान परिषदेची सदस्य संख्या किती आहे?",
+        "answer":[
+            {"opt":"76","correct":false,"explanation":""},
+            {"opt":"74","correct":false,"explanation":""},
+            {"opt":"79","correct":false,"explanation":""},
+            {"opt":"78","correct":true,"explanation":""},
+            {"opt":"80","correct":false,"explanation":""}
+        ]},
+        {"question":"पंचायत राज कोणत्या अनुसूचीशी संबंधित आहे?",
+        "answer":[
+            {"opt":"12व्या","correct":false,"explanation":""},
+            {"opt":"11व्या","correct":true,"explanation":""},
+            {"opt":"9व्या","correct":false,"explanation":""},
+            {"opt":"7व्या","correct":false,"explanation":""}
+        ]},
+        {"question":"महाराष्ट्राच्या खालीलपैकी कोणत्या जिल्ह्यामध्ये प्रसिध्द हापूस आंब्यांची सर्वाधिक लागवड केली जाते?",
+        "answer":[
+            {"opt":"पुणे","correct":false,"explanation":""},
+            {"opt":"सोलापूर ","correct":false,"explanation":""},
+            {"opt":"सातारा","correct":false,"explanation":""},
+            {"opt":"रत्नागिरी","correct":true,"explanation":""},
+            {"opt":"नांदेड","correct":false,"explanation":""}
+        ]},
+        {"question":"फ्लेमिंगो उत्सव कोणत्या भारतीय राज्यात साजरा केला जातो?",
+        "answer":[
+            {"opt":"आंध्र प्रदेश","correct":true,"explanation":""},
+            {"opt":"आसाम","correct":false,"explanation":""},
+            {"opt":"राजस्थान","correct":false,"explanation":""},
+            {"opt":"मणिपूर","correct":false,"explanation":""}
+        ]},
+        
+        {"question":"१९७५ मध्ये मीना गुजरारी या चित्रपटातील सर्वोत्तम अभिनेत्रीचा पुरस्कार खालीलपैकी कोणत्या कलाकाराने पटकावला?",
+        "answer":[
+            {"opt":"मल्लिका साराभाई","correct":true,"explanation":""},
+            {"opt":"सितारा देवी","correct":false,"explanation":""},
+            {"opt":"सोनल मसिंग","correct":false,"explanation":""},
+            {"opt":"शोवना नारायण","correct":false,"explanation":""}
+        ]},
+        {"question":"______ ने मुघल साम्राज्याची राजधानी म्हणून फतेहपूर सिक्रीची स्थापना केली होती.",
+        "answer":[
+            {"opt":"बाबर","correct":false,"explanation":""},
+            {"opt":"अकबर","correct":true,"explanation":""},
+            {"opt":"जहांगीर","correct":false,"explanation":""},
+            {"opt":"हुमायूँ","correct":false,"explanation":""}
+        ]},
+        {"question":"समुद्रगुप्ताचा दरबारी कवी कोण होता?",
+        "answer":[
+            {"opt":"हरिसेन","correct":true,"explanation":""},
+            {"opt":"बाणभट्ट","correct":false,"explanation":""},
+            {"opt":"चांद बरदाई","correct":false,"explanation":""},
+            {"opt":"भवभूती","correct":false,"explanation":""}
+        ]},
+        {"question":"दयानंद सरस्वती खालीलपैकी कोणत्या मिशनचे संस्थापक होते?",
+        "answer":[
+            {"opt":"आर्य समाज","correct":true,"explanation":""},
+            {"opt":"ब्राह्मो समाज","correct":false,"explanation":""},
+            {"opt":"चिन्मय मिशन","correct":false,"explanation":""},
+            {"opt":"प्रार्थना समाज","correct":false,"explanation":""}
+        ]},
+        {"question":"खालीलपैकी कोणते हडप्पा स्थळ हरियाणात आहे?",
+        "answer":[
+            {"opt":"धोलावीरा","correct":false,"explanation":""},
+            {"opt":"लोथल ","correct":false,"explanation":""},
+            {"opt":"कालीबंगा","correct":false,"explanation":""},
+            {"opt":"राखीगढी","correct":true,"explanation":""}
+        ]}
+    
+]

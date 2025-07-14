@@ -1,0 +1,76 @@
+[
+    
+        {"question":" In a 900 m race, 'A' beats 'B' by 270 m and 'C' by 340 m. 'B' beats 'C' by _________m in the race.",
+        "answer":[
+            {"opt":"140","correct":false,"explanation":""},
+            {"opt":"100","correct":false,"explanation":""},
+            {"opt":"70","correct":true,"explanation":""},
+            {"opt":"200","correct":false,"explanation":""}
+        ]},
+        {"question":"What is the sum of two consecutive even numbers, the difference of whose squares is 84?",
+        "answer":[
+            {"opt":"34","correct":false,"explanation":""},
+            {"opt":"38","correct":false,"explanation":""},
+            {"opt":"46","correct":false,"explanation":""},
+            {"opt":"42","correct":true,"explanation":""}
+        ]},
+        {"question":"In a group of 500 students, there are 475 students who can speak Hindi and 200 can speak English. What is the number of students who can speak Hindi only?",
+        "answer":[
+            {"opt":"300","correct":true,"explanation":""},
+            {"opt":"475","correct":false,"explanation":""},
+            {"opt":"175","correct":false,"explanation":""},
+            {"opt":"500","correct":false,"explanation":""}
+        ]},
+        {"question":"In a group of 35 people, 23 of them like coffee, 24 of them like tea and each person likes at least one of the drinks. How many like both?",
+        "answer":[
+            {"opt":"35","correct":false,"explanation":""},
+            {"opt":"6","correct":false,"explanation":""},
+            {"opt":"47","correct":false,"explanation":""},
+            {"opt":"12","correct":true,"explanation":""},
+            {"opt":"None of the above","correct":false,"explanation":""}
+        ]},
+        {"question":"A three-digit number has the property that its units digit is 2 more than its tens digit. If 311 is subtracted from this number, the result is 13. What is the sum of all the digits of the original number?",
+        "answer":[
+            {"opt":"9","correct":true,"explanation":""},
+            {"opt":"7","correct":false,"explanation":""},
+            {"opt":"8","correct":false,"explanation":""},
+            {"opt":"5","correct":false,"explanation":""}
+        ]},
+        
+        {"question":"Find the number of zeroes in 10 × 20 × 30 × ... × 1000.",
+        "answer":[
+            {"opt":"124","correct":true,"explanation":""},
+            {"opt":"100","correct":false,"explanation":""},
+            {"opt":"120","correct":false,"explanation":""},
+            {"opt":"454","correct":false,"explanation":""}
+        ]},
+        {"question":"A mango kept in a basket doubles every one minute. If the basket gets completely filled by mangoes in 30 minutes then in how many minutes half of the basket was filled?",
+        "answer":[
+            {"opt":"27","correct":false,"explanation":""},
+            {"opt":"29","correct":true,"explanation":""},
+            {"opt":"15","correct":false,"explanation":""},
+            {"opt":"28","correct":false,"explanation":""}
+        ]},
+        {"question":"In an examination, 41% of students failed in Economics, 35% of students failed in Geography and 39% of students failed in History, 5% of students failed in all the three subjects, 14% of students failed in Economics and Geography, 21% of students failed in Geography and History and 18% of students failed in History and Economics. Find the percentage of students who failed in only Economics.",
+        "answer":[
+            {"opt":"14%","correct":true,"explanation":""},
+            {"opt":"16%","correct":false,"explanation":""},
+            {"opt":"12%","correct":false,"explanation":""},
+            {"opt":"10%","correct":false,"explanation":""}
+        ]},
+        {"question":"Some students (only boys and girls) from different schools appeared for an Olympiad exam. 20% of the boys and 15% of the girls failed the exam. The number of boys who passed the exam was 70 more than that of the girls who passed the exam. A total of 90 students failed. Find the number of students that appeared for the exam.",
+        "answer":[
+            {"opt":"500","correct":true,"explanation":""},
+            {"opt":"420","correct":false,"explanation":""},
+            {"opt":"400","correct":false,"explanation":""},
+            {"opt":"350","correct":false,"explanation":""}
+        ]},
+        {"question":"Rohit multiplies a number by 2 instead of dividing the number by 2. Resultant number is what percentage of the correct value?",
+        "answer":[
+            {"opt":"200%","correct":false,"explanation":""},
+            {"opt":"300%","correct":false,"explanation":""},
+            {"opt":"50%","correct":false,"explanation":""},
+            {"opt":"400%","correct":true,"explanation":""}
+        ]}
+    
+]

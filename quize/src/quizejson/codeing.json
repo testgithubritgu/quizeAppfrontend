@@ -1,0 +1,75 @@
+[
+    
+        {"question":"Which of the following is an invalid statement?",
+        "answer":[
+            {"opt":"a,b,c = 1000, 2000, 3000","correct":false,"explanation":""},
+            {"opt":"a_b_c = 1,000,000","correct":false,"explanation":""},
+            {"opt":"a b c = 1000 2000 3000","correct":true,"explanation":""},
+            {"opt":"abc = 1,000,000","correct":false,"explanation":"Spaces are not allowed in variable names."}
+        ]},
+        {"question":"Why are local variable names beginning with an underscore discouraged?",
+        "answer":[
+            {"opt":"they are used to indicate global variables","correct":false,"explanation":""},
+            {"opt":"they slow down execution","correct":false,"explanation":""},
+            {"opt":"they confuse the interpreter","correct":false,"explanation":""},
+            {"opt":"they are used to indicate a private variables of a class","correct":true,"explanation":" As Python has no concept of private variables, leading underscores are used to indicate variables that must not be accessed from outside the class."}
+        ]},
+        {"question":"Which of the following is invalid?",
+        "answer":[
+            {"opt":"none of the mentioned","correct":true,"explanation":" All the statements will execute successfully but at the cost of reduced readability."},
+            {"opt":"_a = 1","correct":false,"explanation":""},
+            {"opt":"__a = 1","correct":false,"explanation":""},
+            {"opt":"__str__ = 1","correct":false,"explanation":""}
+        ]},
+        {"question":"What is the maximum possible length of an identifier?",
+        "answer":[
+            {"opt":"63 characters","correct":false,"explanation":""},
+            {"opt":"opt1 characters","correct":false,"explanation":""},
+            {"opt":"79 characters","correct":false,"explanation":""},
+            {"opt":"none of the mentioned","correct":true,"explanation":"Identifiers can be of any length."}
+        ]},
+        {"question":"Which of the following is true for variable names in Python?",
+        "answer":[
+            {"opt":"unlimited length","correct":true,"explanation":"Variable names can be of any length."},
+            {"opt":"underscore and ampersand are the only two special characters allowed","correct":false,"explanation":""},
+            {"opt":"none of the mentioned","correct":false,"explanation":""},
+            {"opt":"all private members must have leading and trailing underscores","correct":false,"explanation":""}
+        ]},
+        
+        {"question":"Is Python case sensitive when dealing with identifiers?",
+        "answer":[
+            {"opt":"yes","correct":true,"explanation":" Case is always significant while dealing with identifiers in python."},
+            {"opt":"none of the mentioned","correct":false,"explanation":""},
+            {"opt":"no","correct":false,"explanation":""},
+            {"opt":"machine dependent","correct":false,"explanation":""}
+        ]},
+        {"question":"Which of the following is an invalid variable?",
+        "answer":[
+            {"opt":"foo","correct":false,"explanation":""},
+            {"opt":"optst_string","correct":true,"explanation":"Variable names should not start with a number."},
+            {"opt":"my_string_1","correct":false,"explanation":""},
+            {"opt":"_","correct":false,"explanation":""}
+        ]},
+        {"question":"All keywords in Python are in _________",
+        "answer":[
+            {"opt":"None of the mentioned","correct":true,"explanation":"True, False and None are capitalized while the others are in lower case."},
+            {"opt":"Capitalized","correct":false,"explanation":""},
+            {"opt":"lower case","correct":false,"explanation":""},
+            {"opt":"UPPER CASE","correct":false,"explanation":""}
+        ]},
+        {"question":"Which of the following cannot be a variable?",
+        "answer":[
+            {"opt":"in","correct":true,"explanation":"in is a keyword."},
+            {"opt":"__init__","correct":false,"explanation":""},
+            {"opt":"on","correct":false,"explanation":""},
+            {"opt":"it","correct":false,"explanation":""}
+        ]},
+        {"question":"Which of the following is not a keyword?",
+        "answer":[
+            {"opt":"nonlocal","correct":false,"explanation":""},
+            {"opt":"pass","correct":false,"explanation":""},
+            {"opt":"assert","correct":false,"explanation":""},
+            {"opt":"eval","correct":true,"explanation":"eval can be used as a variable."}
+        ]}
+    
+]
